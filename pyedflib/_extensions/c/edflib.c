@@ -665,10 +665,10 @@ int edfclose_file(int handle)
       str[p++] = 20;
       for(i=0; i<EDFLIB_WRITE_MAX_ANNOTATION_LEN; i++)
       {
-        if(annot2->annotation[i]==0)
-        {
-          break;
-        }
+        //if(annot2->annotation[i]==0)
+        //{
+          //break;
+        //}
 
         str[p++] = annot2->annotation[i];
       }
